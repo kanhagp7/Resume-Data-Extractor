@@ -62,5 +62,4 @@ def upload():
     excel_file = process_cvs(cv_paths)
     return send_file(excel_file, as_attachment=True)
 
-if __name__ == "__main__":
-    app.run(debug=False, host = '0.0.0.0')
+
